@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+header{
+    background-image: url(image/background.jpg);
+    width: 100%;
+    height: 581px;
+    background-size: cover; 
+    border-bottom:  73px solid  black;
+    box-shadow: 5px 5px 400px 90px black inset;
+}
+.logo{
+    width: 14%;
+    position: relative;
+    left: 42%;
+    top: -20px;
+}
+.Signin{
+    width: 5%;
+     margin-top: 15px;
+    margin-left: 76%;
+    font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.navbar{
+    display: flex;
+}
+.Signin input{
+    padding: 3px 26px;
+    border-radius: 5px;
+    background-color: rgb(189, 10, 10);
+    border: none;
+    color: white ;
+    font-size: 17px;
+}
+.middleofhearder{
+    text-align: center;
+    color: white;
+    font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin-top: 60px;
+}
+.buttonwatch{
+    color: white;
+    font-weight: 700;
+    background-color: rgb(189, 10, 10);
+    border: none;
+    width: 270px;
+    height: 37px; 
+    cursor: grab; 
+}
+.see{
+    font-size: 70px;
+    padding: -2rem 5rem;
+}
+.watch{
+    font-size: 25px;  
+    padding: 2rem 5rem;
+}
+span:hover{
+    padding-left: 4%;
+}
+@media screen and (max-width: 500px){
+    
+        header{
+        }
+        .logo{
+            position: initial;
+        }
+        .Signin{
+
+        }
+        .navbar{
+        }
+    }
+}
