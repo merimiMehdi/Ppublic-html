@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-image: url(image/background.jpg);
+    width: 100%;
+    height: 581px;
+    background-size: cover;
+    border-bottom: 73px solid black;
+    box-shadow: 5px 5px 400px 90px black inset;
+}
+
+.logo {
+    width: 14%;
+    position: relative;
+    left: 42%;
+    top: -20px;
+    animation-name: logo;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+}
+
+@keyframes logo {
+ from{
+     /* opacity: 0; */
+     /* transform: translateY(-1000px); */
+     transform: skew(-1deg, 37deg);
+         }
+ 
+}
+.Signin {
+    width: 5%;
+    margin-top: 2%;
+    margin-left: 76%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    cursor:wait;
+}
+
+.navbar {
+    display: flex;
+}
+
+.Signin input {
+    padding: 3px 26px;
+    border-radius: 5px;
+    background-color: rgb(189, 10, 10);
+    border: none;
+    color: white;
+    font-size: 17px;
+}
+
+.middleofhearder {
+    text-align: center;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 4%;
+}
+
+.buttonwatch {
+    color: white;
+    font-weight: 700;
+    background-color: rgb(189, 10, 10);
+    border: none;
+    width: 30%;
+    height: 37px;
+    cursor: grab;
+    text-align: center;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 2%;
+    margin-left: 34%;
+}
+
+.buttonwatch button:hover {
+    padding-right: 10%;
+}
+
+.buttonwatch button,.buttonwatch span{
+    background: transparent;
+    border: none;
+    color: white;
+    margin-top: 3%;
+}
+
+.see {
+    font-size: 70px;
+    padding: -2rem 5rem;
+}
+
+.watch {
+    font-size: 25px;
+    padding: 2rem 5rem;
+}
+@media (min-width: 640px) and (max-width: 1007px) {
+
+body{
+    background-color: tomato;
+}
+
+    .logo {
+        position: initial;
+    }
+
+    .Signin {
+        
+        position: relative;
+        right: 19%;
+        margin-top: 7%;
+
+    }
+
+    .see {
+        font-size: 50px;
+    }
+
+    .watch {
+        font-size: 16px;
+        margin-left: -3.5%;
+        font-weight: bold;
+    }
+
+    .buttonwatch{
+        width: 35%;
+        margin-left: 32%;
+        font-size: 10px;
+    }
+    .buttonwatch button, .buttonwatch span{
+        display: inline-block;
+        font-size: 10px;
+        font-weight: 600;
+        margin-top: 6%;
+   }
+
+}
+
+
+
