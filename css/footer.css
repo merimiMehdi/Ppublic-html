@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+.quesstion{
+    color: #757575;
+    margin-left: 3.4%;
+    width: 100%;
+    margin-left: 4.6%;
+}
+
+.netflix{
+    color:#757575;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    
+    
+}
+.netflix1 , .netflix2 , .netflix3 , .netflix4{
+    display: inline-block;
+    margin: 0;
+    width: 24%;
+    
+}
+.selectt{
+    background-color:black;
+    color: #757575;
+    margin-left: 4.6%;
+    width: 10%;
+    padding: 1rem 0rem;
+ }
+
+ .container{
+     width: 80%;
+     margin-left: 10%;
+ }
+
+ .netflix li{
+     margin-left: 0;
+     text-align: left;
+     margin: 6%;
+ }
